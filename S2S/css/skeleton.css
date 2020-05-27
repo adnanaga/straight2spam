@@ -120,6 +120,8 @@
     float:left;
 
     padding: 5px 5px 5px 5px;
+    background-color: white;
+    color: background-color: rgba(0, 191, 143, 1);
     font-size: 2.4rem;
 }
 
@@ -129,6 +131,8 @@
     float:left;
 
     padding: 5px 5px 5px 5px;
+    background-color: white;
+    color: background-color: rgba(0, 191, 143, 1);
     font-size: 1rem;
 }
 
@@ -261,10 +265,10 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Inconsolata", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; 
-/*background-color:rgba(0, 0, 0, .55);*/
+  color:rgb(32,32,34);
+  background-color: rgb(32,32,34);
 
-  overflow: hidden;}
+  /*overflow: hidden;*/}
 
 
 /* Typography
@@ -314,7 +318,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: black;
+  color: #555;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -347,8 +351,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  background-color: red;
+  border-color: red; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -360,8 +364,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  background-color: gold;
+  border-color: gold; }
 
 
 /* Forms
